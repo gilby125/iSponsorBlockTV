@@ -2,12 +2,8 @@ version: '3.8'
 
 services:
   iSponsorBlockTV:
-    image: dmunozv04/isponsorblocktv:latest
+    image: ghcr.io/dmunozv04/isponsorblocktv
     container_name: iSponsorBlockTV
     restart: unless-stopped
     volumes:
-      - isponsorblocktv_data:/app/data
-    network_mode: host  # Optional: needed for auto-discovery during setup
-
-volumes:
-  isponsorblocktv_data:
+      - ./data:/app/data
