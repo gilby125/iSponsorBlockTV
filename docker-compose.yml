@@ -6,5 +6,8 @@ services:
     container_name: iSponsorBlockTV
     restart: unless-stopped
     volumes:
-      - ./data:/app/data
+      - isponsorblocktv_data:/app/data
     network_mode: host  # Optional: needed for auto-discovery during setup
+
+volumes:
+  isponsorblocktv_data:
