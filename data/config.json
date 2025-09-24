@@ -1,0 +1,27 @@
+{
+    "devices": [
+        {
+            "screen_id": "",
+            "name": "TV"
+        }
+    ],
+    "skip_categories": [
+        "sponsor",
+        "intro",
+        "outro",
+        "selfpromo",
+        "preview",
+        "interaction",
+        "music_offtopic",
+        "filler"
+    ],
+    "skip_count_tracking": true,
+    "mute_ads": true,
+    "skip_ads": true,
+    "minimum_skip_length": 1,
+    "auto_play": true,
+    "join_name": "iSponsorBlockTV",
+    "apikey": "",
+    "channel_whitelist": [],
+    "use_proxy": false
+}
